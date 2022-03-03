@@ -1,0 +1,22 @@
+{
+  "name": "curso-inaem-proyecto1",
+  "version": "1.0.0",
+  "description": "Pig game by Diego",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegocalvoalegre/curso-inaem-proyecto1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegocalvoalegre/curso-inaem-proyecto1/issues"
+  },
+  "homepage": "https://github.com/diegocalvoalegre/curso-inaem-proyecto1#readme",
+  "devDependencies": {
+    "eslint-config-standard": "^16.0.3"
+  }
+}
