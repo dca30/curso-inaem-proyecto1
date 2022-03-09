@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "live-server code/index.html",
-    "pepe": "echo \"Pepe",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "startprod": "live-server build/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mincss": "csso code/styles.css --output build/styles.css"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/diegocalvoalegre/curso-inaem-proyecto1#readme",
   "devDependencies": {
+    "csso-cli": "^3.0.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-prettier": "^4.0.0",
