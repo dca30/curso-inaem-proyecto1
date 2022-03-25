@@ -4,8 +4,8 @@
   "description": "Pig game by Diego",
   "main": "index.js",
   "scripts": {
-    "start": "live-server code/index.html",
-    "startprod": "live-server build/index.html",
+    "start": "live-server --build=code/index.html",
+    "startprod": "live-server --open=build/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
     "mincss": "csso code/styles.css --output build/styles.css"
   },
